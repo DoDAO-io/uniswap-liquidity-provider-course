@@ -9,7 +9,7 @@ highlights:
   - Strategy Backtesting Tools
   - Strategy Simulation Tools
   - Position Management Tools
-publishStatus: Draft
+publishStatus: Live
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Course/Liquidity_Provider_Course/1685486060953_course2_img.png
 details: >-
@@ -97,9 +97,7 @@ topics:
       reliable, and that it will function as intended when deployed on a
       blockchain network.
 
-courseAdmins:
-  - '0x34d014758297c00fea49935fce172677904d51ef'
-  - '0x2a6af0619be90d129ab0d70c10e25c097b6ec67d'
+courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
   showExplanations: true
