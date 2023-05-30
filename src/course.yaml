@@ -225,6 +225,7 @@ topics:
       liquidity provision lies not just in understanding the market but also in
       understanding the tools at your disposal. And as we'll demonstrate,
       strategy backtesting is an invaluable tool in your arsenal.
+    explanations: strategy-backtesting-tools.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
