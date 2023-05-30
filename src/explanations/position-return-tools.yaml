@@ -33,3 +33,92 @@
     profitability of providing liquidity. Also, other factors such as managing
     liquidity actively or passively, anticipating the market movements, etc.,
     can affect the PnL.
+- key: revert-finance
+  shortTitle: Revert Finance
+  details: >
+    Revert develops analytics and management tools for liquidity providers in
+    AMM protocols and has a great support for Uniswap V3.
+
+
+    ### Revert Home Screen
+
+    <div align="center">
+
+    <img style="max-height:600px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612775072_revert_1.png"/>
+
+    </div>
+
+    You just need to input your address and you should be able to see all the
+    details related to your postion
+
+
+    ### Position List
+
+    <div align="center">
+
+    <img style="max-height:900px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612942587_revert_2_a.png"/>
+
+    </div>
+
+
+    ### Position Details
+
+    <div align="center">
+
+    <img style="max-height:800px"
+    src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-return-tools-uniswap/1684612976393_revert_2.png"/>
+
+    </div>
+
+
+
+    Below are some of the important data points shown by revert
+
+    ### **Uniswap v3 Position Definitions**
+
+
+    - **Pooled_assets**: The total value of the position in USD.
+
+    - **APR**: The yearly return rate considering the value of the position
+    assets, deposits, withdrawals, gas costs, and staking rewards at current
+    prices.
+
+    - **Fee APR**: The yearly return rate based on accrued fees only, without
+    considering divergence loss.
+
+    - **APR_excluding_gas**: The yearly return rate taking into account the
+    value of the position, fees, and divergence loss, but ignoring gas costs.
+
+    - **Pool_PnL & Total_PnL**: These metrics measure the profit and loss for a
+    position. While Pool PnL considers only fees and price divergence, Total PnL
+    also factors in gas costs and reward incentives.
+
+    - **Current_assets**: The current amount of tokens associated with this
+    liquidity provider (LP) position.
+
+    - **Invested_assets & Withdrawn**: The total assets put into and taken out
+    of the position, respectively.
+
+    - **Diffs**: The difference between invested assets, withdrawn assets, and
+    current assets.
+
+    - **Unclaimed_rewards & Claimed_rewards**: The total detected unclaimed and
+    claimed staking rewards for the account and pool, respectively.
+
+
+    ### **Uniswap v3 Pool Definitions**
+
+
+    - **Reserves**: The USD value of the token reserves for the pool.
+
+    - **Volume**: The USD value of the traded volume within the pool.
+
+    - **Price_divergence**: The absolute difference between the percentage
+    changes in prices for the underlying assets compared to the prices 30 days
+    ago. This can lead to losses for LPs if the two assets' prices diverge
+    significantly.
+
+    - **Position_age**: The time (in days) since the position was first created.
+  title: Revert Finance
