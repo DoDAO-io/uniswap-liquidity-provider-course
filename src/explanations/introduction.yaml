@@ -189,3 +189,24 @@
     Deciding which strategy to employ depends on your individual risk tolerance,
     investment goals, and understanding of the market.
   title: Pros and Cons
+- key: options-strategy-using-v3
+  shortTitle: Options Strategy
+  details: >-
+    Multiple strategies can be developed based on the fundamental positions
+    taken by liquidity providers (LPs), and these strategies can be automated as
+    well. However, it is essential to acknowledge that, similar to traditional
+    finance, there are no models that can guarantee gains without any associated
+    risks.
+
+
+    Many traditional liquidity providers draw a parallel between Uniswap's V3
+    position and an option. In Uniswap V3, when LPs offer concentrated liquidity
+    within a specific price range, they are essentially selling a type of
+    option. If the token price remains within their specified range, they earn
+    fees analogous to the premium in an options contract. Conversely, if the
+    price moves outside their range, they cease to earn fees, and they retain
+    the token similar to an exercised option.
+
+
+     
+  title: Options Strategy using V3
