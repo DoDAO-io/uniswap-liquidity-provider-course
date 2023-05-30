@@ -289,3 +289,34 @@
     risk-free rate, and the ability to continuously hedge, which may not hold
     true in the volatile crypto market.
   title: Strategy Modeling
+- key: final-words
+  shortTitle: Final Words
+  details: >-
+    Let's categorize these strategies based on the investor's circumstances,
+    goals, risk tolerance, and liquidity needs:
+
+
+    1) **Low Risk and Low Gains:**
+
+       - **HODL Stable Coins:** This strategy is considered low risk because stable coins are designed to minimize volatility as they are pegged to stable assets. However, the potential for high returns is limited compared to other strategies that involve investment or providing liquidity in pools.
+
+       - **Provide Wide Range Liquidity:** Providing wide range liquidity involves setting a wide price range for liquidity, which means lower risk of prices moving outside the specified range and consistent fee earnings. However, the downside is lower capital efficiency, which means lower potential gains compared to narrower range liquidity.
+
+    2) **Moderate Risk and Moderate Gains:**
+
+       - **HODL 50% of Both Tokens:** Holding 50% of two different tokens diversifies risk between the two. If one token's value declines, it could be offset by the other token's increase in value. However, if both tokens depreciate, losses can be significant.
+
+       - **HODL 100% of One Token:** Holding 100% of a single token can have moderate risk and gain depending on the stability of the chosen token. There's potential for high returns if the token appreciates, but there's also risk if the token's value decreases.
+
+    3) **More Risk and More Gains:**
+
+       - **Provide Narrow Range Liquidity:** Providing narrow range liquidity has increased risk because the price of the token pair is more likely to move outside the specified range, stopping the liquidity provider from earning fees. However, the potential returns can be higher due to increased capital efficiency.
+
+       - **Provide Liquidity in Volatile Token Pools:** Providing liquidity in volatile token pools is high risk due to significant price fluctuations. However, the potential returns can be higher due to the increased trading volumes and thus higher fee earnings.
+
+
+    Remember, individual circumstances can change over time, and the chosen
+    strategy should reflect these changes. It's also essential to consider that
+    while categorizations can guide decision-making, they may not cover all
+    potential situations and outcomes.
+  title: Final Words
