@@ -177,6 +177,7 @@ topics:
       understanding of the tools and strategies at your disposal to optimize
       profitability and manage risk in the dynamic world of Uniswap v3.
     explanations: position-return-tools.yaml
+    questions: position-return-tools.yaml
   - key: strategy-backtesting-tools
     title: Strategy Backtesting Tools
     details: >-

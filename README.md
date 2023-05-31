@@ -42,7 +42,7 @@ Upon completion of this course, you'll have a well-rounded understanding of the 
  | S.No        | Title       | Contents   | Links      | Status      | Completion Week |
  | ----------- | ----------- |----------- |----------- | ----------- | ----------- |
  | 1      | Strategies for LPs | | [Details](generated/topics/uniswap-strategies.md) <br/> [Explanations](generated/explanations/uniswap-strategies.md) <br/>  <br/>  <br/> [Questions](generated/questions/uniswap-strategies.md) | undefined | undefined |
- | 2      | Position Return Tools | | [Details](generated/topics/position-return-tools.md) <br/> [Explanations](generated/explanations/position-return-tools.md) <br/>  <br/>  <br/>  | undefined | undefined |
+ | 2      | Position Return Tools | | [Details](generated/topics/position-return-tools.md) <br/> [Explanations](generated/explanations/position-return-tools.md) <br/>  <br/>  <br/> [Questions](generated/questions/position-return-tools.md) | undefined | undefined |
  | 3      | Strategy Backtesting Tools | | [Details](generated/topics/strategy-backtesting-tools.md) <br/> [Explanations](generated/explanations/strategy-backtesting-tools.md) <br/>  <br/>  <br/>  | undefined | undefined |
  | 4      | Strategy Simulation | | [Details](generated/topics/strategy-simulation.md) <br/> [Explanations](generated/explanations/strategy-simulation.md) <br/>  <br/>  <br/>  | undefined | undefined |
  | 5      | Position Mgmt Tools | | [Details](generated/topics/position-mgmt-tools.md) <br/> [Explanations](generated/explanations/position-mgmt-tools.md) <br/>  <br/>  <br/>  | undefined | undefined | 
