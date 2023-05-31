@@ -161,3 +161,55 @@
 
     Remember, Revert applies a 0.50% fee for swap transactions.
   title: Revert
+- key: instadapp
+  shortTitle: Instadapp
+  details: >
+    On Instadapp users generate their own self-custodial smart wallet called a
+    DeFi Smart Account (DSA). DeFi Smart Account are DeFi superwallets that
+    empower your DeFi experience enabling you to get the most from DeFi!
+
+
+    ### Create a new position
+
+    You can create a new position using the Balances in your DSA account.
+
+
+    ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685539924980_create_position.gif)
+
+
+    ### Rebalancing your Position
+
+    Whenever your position is out or range you will be shown the Rebalance
+    button. You just click on Rebalance button to pull the Rebalance panel. You
+    can set a new price range entering numbers or utilizing the graph.
+
+
+    ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685539996795_rebalance.gif)
+
+
+    ### Managing Positions
+
+    In the interface you will find information regarding each NFT’s liquidity,
+    earned fees, its current composition and if it currently in range.
+
+    ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685540125588_manage_1.webp)
+
+
+    1. Context Menu
+
+    2. Opens Visual Graph
+
+    3. Collect Fee 
+
+    4. Collect Liquidity Mining Reward
+
+    5. Unstake Uniswap LP from Liquidity Mining
+
+
+    The context menu will show you all the functions available for your LP. Here
+    you can remove or add liquidity to the current LP as well as access staking
+    and reward options. 
+
+
+    ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/position-management-tools-uniswap/1685540136089_context_menu.webp)
+  title: Instadapp
