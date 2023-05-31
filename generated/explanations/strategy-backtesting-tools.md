@@ -1,0 +1,79 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Strategy Backtesting Tools
+ 
+ **Introduction**        
+
+### Strategy Backtesting
+Strategy backtesting is a simulation technique used in trading and investment. It involves using historical market data to test an investment strategy as if it had been employed during past periods. Backtesting allows investors and traders to evaluate whether their proposed strategies would have been profitable in previous market conditions, offering insights into their potential performance in future scenarios.
+
+To conduct strategy backtesting, one would start by establishing a hypothetical portfolio at a particular starting point in time. The portfolio is then subjected to the trading rules that define the investment strategy. For instance, an investor might have a rule that states, "buy when the 50-day moving average crosses above the 200-day moving average." As the backtest progresses, the portfolio manager simulates these buy or sell orders according to the rules, tracking the portfolio's performance over time.
+
+Backtesting relies on the assumption that historical performance can provide some insight into how a strategy might perform in the future. However, it's important to remember that past performance is not always indicative of future results, and many other factors could influence the outcomes.
+
+### Strategy Backtesting in the Context of Uniswap V3
+With concentrated liquidity, liquidity providers (LPs) can specify a price range for their capital to be used, which allows them to create a personalized exposure curve and achieve more capital efficiency compared to Uniswap V2.
+
+Strategy backtesting in Uniswap V3 would involve simulating LP strategies using historical on-chain data. For instance, you could backtest a strategy where you adjust your price ranges dynamically based on certain market indicators, or a more passive strategy where you provide liquidity in a fixed price range.
+
+The backtest would measure metrics such as the return on investment, impermanent loss, and fees collected, which would help the LPs in making informed decisions about whether the strategies would be profitable in future market conditions. 
+ **Benefits and Scenarios**        
+### Benefits of Backtesting in Uniswap V3
+Backtesting in Uniswap V3 can offer various benefits to LPs:
+* **Risk Management**: By testing strategies in past market conditions, LPs can understand the potential risks associated with their strategies. This could help them devise better risk management practices.
+* **Strategy Optimization**: Backtesting allows LPs to fine-tune their strategies to maximize profits and minimize losses. They can experiment with different price ranges and fee tiers to identify the most optimal approach.
+* **Performance Evaluation**: Backtesting helps LPs measure the performance of their strategies against a benchmark. This can be useful for comparing multiple strategies and choosing the best one.
+* **Capital Efficiency**: With the concentrated liquidity feature in Uniswap V3, LPs can backtest strategies to find the most capital-efficient price ranges for providing liquidity.
+
+### Backtesting Scenarios in Uniswap V3
+Let's consider a few scenarios that could be backtested in Uniswap V3:
+
+* **Narrow vs Wide Price Ranges**: An LP could backtest providing liquidity in narrow vs wide price ranges for a particular pair. This would help them understand which strategy would have resulted in higher returns and fees, considering the trade-off with potential impermanent loss.
+* **Different Fee Tiers**: Uniswap V3 introduced three different fee tiers. LPs could backtest their strategies using different fee tiers to understand which one would have been the most profitable for their specific case.
+* **Passive vs Active Management**: An LP could compare a passive strategy (keeping the same price range over time) with an active one (adjusting the price range based on market indicators). The backtest could reveal whether the potential additional profits from active management justify the effort and costs associated with it.
+* **Event-based Backtesting**: LPs could also backtest their strategies around specific market events, such as the release of significant crypto news or the listing of a new token. This could help them devise better strategies for such events in the future. 
+ **DeFi Lab**        
+https://defi-lab.xyz/uniswapv3simulator is an excellent tool for backtesting
+
+The Strategy Backtester tool facilitates the simulation of Uniswap v3 strategies, enabling the computation of historical returns. While past performances do not assure future outcomes, they serve as a vital groundwork for analysis and aid in defining our Liquidity Provision (LP) strategy.
+
+Specify the number of days for running the backtester, and it will compute for the chosen strategies (Strategy1, Strategy2, and Unbounded V2 Strategy).
+
+The backtesting table provides a synopsis of the past performance for the selected strategy:
+<div align="center">
+<img style="margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685398354315_back_test_defi_lab_1.png"/>
+</div>
+
+- **Fee Roi %:** This represents the percentage fee generated by the LP position during the holding period, calculated as (Fee/initial investment).
+- **APR %:** This is the implied annualized fee return, computed as (Fee Roi % *365 / holding period).
+- **Asset Value %:** This reflects the percentage change in the value of the LP principal due to price fluctuations, calculated as (Value of LP position excluding fees/ Initial investment).
+- **Total Return:** This is the sum of Asset Value % and Fee Roi %.
+- **Base Collected:** This denotes the quantity of base token amassed by the LP position.
+- **Token Collected:** This refers to the quantity of the corresponding token collected by the LP position.
+- **Fee in USD:** This represents the total fee garnered by the LP position in USD, based on current prices.
+- **Time in Range:** This is the percentage of time the price remained within the lower and upper limit of the selected strategy.
+- **Backtest Confidence:** The precision of the backtester calculations is contingent on the amount of time the price remained within the range. When the time in range is nearing 100%, the accuracy is considerably high. Conversely, a lower time in range could lead to a greater variance in the backtest's accuracy.
+
+You can also compare how each of the strategies perform with time over time.
+
+![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685398740110_back_test_defi_lab_2.png)
+
+ 
+ **Revert Finance**        
+Revert Finance, available at https://revert.finance/#/initiator, is an excellent resource for conducting backtests on different strategies.
+
+To begin, you can choose the specific pool to which you wish to provide liquidity and set the desired range.
+
+Next, specify the quantity of tokens you intend to deposit and select the strategy you prefer.
+
+
+![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685399724525_revert_back_1.png)
+
+Finally, initiate the backtesting process to compare the outcomes against various base strategies, such as HODL 50-50 or HODL 100% of one of the tokens.
+
+![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685399732682_revert_back_2.png)
+ 
+ 

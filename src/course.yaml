@@ -85,7 +85,7 @@ details: >-
   optimize your performance as an Uniswap LP.
 duration: 30 mins - 1 hour
 topics:
-  - key: introduction
+  - key: uniswap-strategies
     title: Strategies for LPs
     details: >-
       Uniswap V3 has revolutionized the decentralized finance (DeFi) landscape
@@ -130,7 +130,8 @@ topics:
       Uniswap V3. By the end of this chapter, you will be better equipped to
       devise a strategy that aligns with your investment objectives, enabling
       you to confidently navigate the dynamic and exciting world of Uniswap V3.
-    explanations: introduction.yaml
+    explanations: uniswap-strategies.yaml
+    questions: uniswap-strategies.yaml
   - key: position-return-tools
     title: Position Return Tools
     details: >-
