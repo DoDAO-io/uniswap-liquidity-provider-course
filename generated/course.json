@@ -609,7 +609,194 @@
           "title": "Revert Finance"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174000",
+          "type": "SingleChoice",
+          "content": "What is strategy backtesting in the context of trading and investment?",
+          "hint": "NoHint",
+          "explanation": "Strategy backtesting is a simulation technique used in trading and investment that involves using historical market data to test an investment strategy as if it had been employed during past periods.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "A simulation technique using historical market data to test an investment strategy.",
+              "key": "A"
+            },
+            {
+              "content": "A method of predicting future market trends.",
+              "key": "B"
+            },
+            {
+              "content": "A tool for conducting real-time market analysis.",
+              "key": "C"
+            },
+            {
+              "content": "A technique for diversifying investment portfolios.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174001",
+          "type": "SingleChoice",
+          "content": "What would be one of the metrics measured during strategy backtesting in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "One of the metrics measured during strategy backtesting in Uniswap V3 is return on investment. Other metrics might include impermanent loss, and fees collected.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The number of active users on the platform.",
+              "key": "A"
+            },
+            {
+              "content": "The price of the UNI token.",
+              "key": "B"
+            },
+            {
+              "content": "Return on investment.",
+              "key": "C"
+            },
+            {
+              "content": "The total volume of stablecoins in circulation.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174002",
+          "type": "SingleChoice",
+          "content": "In the context of Uniswap V3, what does concentrated liquidity allow LPs to do?",
+          "hint": "NoHint",
+          "explanation": "With concentrated liquidity, liquidity providers (LPs) can specify a price range for their capital to be used, allowing them to create a personalized exposure curve and achieve more capital efficiency compared to Uniswap V2.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Trade tokens without fees.",
+              "key": "A"
+            },
+            {
+              "content": "Specify a price range for their capital, creating a personalized exposure curve.",
+              "key": "B"
+            },
+            {
+              "content": "Predict future price movements.",
+              "key": "C"
+            },
+            {
+              "content": "Stake UNI tokens for governance rights.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174005",
+          "type": "MultipleChoice",
+          "content": "What are some benefits of backtesting in Uniswap V3 for Liquidity Providers (LPs)?",
+          "hint": "NoHint",
+          "explanation": "Backtesting in Uniswap V3 can help LPs in risk management, strategy optimization, performance evaluation, and identifying the most capital-efficient price ranges for providing liquidity.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Assists in risk management by testing strategies in past market conditions.",
+              "key": "A"
+            },
+            {
+              "content": "Enables strategy optimization for maximizing profits and minimizing losses.",
+              "key": "B"
+            },
+            {
+              "content": "Facilitates performance evaluation against a benchmark.",
+              "key": "D"
+            },
+            {
+              "content": "Helps find the most capital-efficient price ranges for providing liquidity.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174006",
+          "type": "SingleChoice",
+          "content": "What could an LP compare using backtesting in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "An LP could compare a passive strategy (keeping the same price range over time) with an active one (adjusting the price range based on market indicators) using backtesting in Uniswap V3.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Comparing the performance of two different tokens.",
+              "key": "A"
+            },
+            {
+              "content": "Comparing the fees associated with different trading platforms.",
+              "key": "B"
+            },
+            {
+              "content": "Comparing the profitability of investing in different asset classes.",
+              "key": "C"
+            },
+            {
+              "content": "Comparing a passive strategy with an active one.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174007",
+          "type": "MultipleChoice",
+          "content": "Which scenarios could be backtested in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "Scenarios that could be backtested in Uniswap V3 include providing liquidity in narrow vs wide price ranges, using different fee tiers, comparing passive vs active management, and backtesting strategies around specific market events.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Providing liquidity in narrow vs wide price ranges.",
+              "key": "A"
+            },
+            {
+              "content": "Using different fee tiers.",
+              "key": "B"
+            },
+            {
+              "content": "Comparing passive vs active management.",
+              "key": "C"
+            },
+            {
+              "content": "Backtesting strategies around specific market events.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     },
@@ -650,7 +837,158 @@
           "title": "Uniswap Fish"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174008",
+          "type": "SingleChoice",
+          "content": "In the context of Uniswap V3, what does strategy simulation refer to?",
+          "hint": "NoHint",
+          "explanation": "Strategy simulation in Uniswap V3 refers to the process of modeling and testing various strategies for providing liquidity in the protocol.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The process of choosing the most valuable tokens.",
+              "key": "A"
+            },
+            {
+              "content": "Modeling and testing various strategies for providing liquidity.",
+              "key": "B"
+            },
+            {
+              "content": "Estimating the future price of tokens.",
+              "key": "C"
+            },
+            {
+              "content": "Tracking the historical performance of a specific token pair.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174009",
+          "type": "SingleChoice",
+          "content": "What does strategy simulation in Uniswap V3 typically consider?",
+          "hint": "NoHint",
+          "explanation": "Strategy simulation in Uniswap V3 typically considers factors such as the selection of token pairs, price range setting, duration of investment, and market conditions.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The total number of token holders.",
+              "key": "A"
+            },
+            {
+              "content": "The daily trading volume of the Uniswap V3 protocol.",
+              "key": "B"
+            },
+            {
+              "content": "The price of Ethereum gas.",
+              "key": "C"
+            },
+            {
+              "content": "The selection of token pairs, price range setting, duration of investment, and market conditions.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174010",
+          "type": "SingleChoice",
+          "content": "What can LPs gain by simulating strategies in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "By simulating strategies, liquidity providers can gain insights into the potential outcomes and make informed decisions when providing liquidity on Uniswap V3.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "They can predict the exact future price of a token.",
+              "key": "A"
+            },
+            {
+              "content": "They can gain insights into potential outcomes and make informed decisions.",
+              "key": "B"
+            },
+            {
+              "content": "They can control the price of a particular token.",
+              "key": "C"
+            },
+            {
+              "content": "They can predict the exact future trading volume of a token pair.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174011",
+          "type": "SingleChoice",
+          "content": "What is one major advantage of strategy simulation in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "One major advantage of strategy simulation in Uniswap V3 is that it aids in making more informed decisions about providing liquidity by simulating different strategies to gain insights into potential returns and risks.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Predicting the future price of tokens.",
+              "key": "A"
+            },
+            {
+              "content": "Guaranteeing a certain level of return.",
+              "key": "B"
+            },
+            {
+              "content": "Making more informed decisions about providing liquidity.",
+              "key": "C"
+            },
+            {
+              "content": "Manipulating market dynamics.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174012",
+          "type": "SingleChoice",
+          "content": "How does strategy simulation in Uniswap V3 contribute to risk mitigation?",
+          "hint": "NoHint",
+          "explanation": "Strategy simulation in Uniswap V3 contributes to risk mitigation by allowing users to understand potential outcomes and risks associated with different strategies, enabling them to choose strategies that align with their risk tolerance level.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It guarantees no loss in any market condition.",
+              "key": "A"
+            },
+            {
+              "content": "It allows understanding potential outcomes and risks associated with different strategies.",
+              "key": "B"
+            },
+            {
+              "content": "It provides insurance against loss.",
+              "key": "C"
+            },
+            {
+              "content": "It manipulates market conditions to avoid risks.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     },
@@ -685,7 +1023,131 @@
           "title": "Arrakis V2"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174013",
+          "type": "SingleChoice",
+          "content": "Why are position management tools pivotal in the case of Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "Position management tools are pivotal in Uniswap V3 due to its unique concentrated liquidity feature. They enable users to efficiently manage their liquidity provision strategies by tracking the performance of their investments, adjusting parameters in response to market conditions, managing multiple positions simultaneously, and making informed trading decisions.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "They allow users to manipulate market prices.",
+              "key": "A"
+            },
+            {
+              "content": "They guarantee profits in any market condition.",
+              "key": "B"
+            },
+            {
+              "content": "They enable efficient management of liquidity provision strategies.",
+              "key": "C"
+            },
+            {
+              "content": "They bypass the need for understanding market dynamics.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174014",
+          "type": "SingleChoice",
+          "content": "How do position management tools contribute to profit optimization?",
+          "hint": "NoHint",
+          "explanation": "Position management tools contribute to profit optimization by allowing traders to monitor the performance of different positions. This monitoring helps traders identify which positions are performing well and which ones need to be adjusted to optimize returns.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "They allow traders to monitor performance and adjust positions to optimize returns.",
+              "key": "A"
+            },
+            {
+              "content": "They guarantee high profits for every trading position.",
+              "key": "B"
+            },
+            {
+              "content": "They manipulate market conditions for profit.",
+              "key": "C"
+            },
+            {
+              "content": "They invest traders' assets in the most profitable tokens automatically.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174003",
+          "type": "MultipleChoice",
+          "content": "What functionalities can position management tools offer in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "In Uniswap V3, position management tools can offer functionalities like monitoring performance of liquidity positions, adjusting price ranges, managing multiple positions, and providing transaction history.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Monitoring the performance of liquidity positions.",
+              "key": "A"
+            },
+            {
+              "content": "Helping in adjusting the price ranges of positions.",
+              "key": "B"
+            },
+            {
+              "content": "Managing multiple positions across different token pairs or price ranges.",
+              "key": "C"
+            },
+            {
+              "content": "Providing transaction history related to each position.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "123e4567-e89b-12d3-a456-426614174004",
+          "type": "SingleChoice",
+          "content": "What should be kept in mind despite the aid of position management tools in Uniswap V3?",
+          "hint": "NoHint",
+          "explanation": "Despite the aid of position management tools in Uniswap V3, it's important to remember that these tools do not replace the need for careful analysis and consideration of market conditions and individual risk tolerance.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The need for high-speed internet connection.",
+              "key": "A"
+            },
+            {
+              "content": "The need for expert coding skills.",
+              "key": "B"
+            },
+            {
+              "content": "The need for constant monitoring of the cryptocurrency market.",
+              "key": "C"
+            },
+            {
+              "content": "The need for careful analysis and consideration of market conditions and individual risk tolerance.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     }

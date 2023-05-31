@@ -18,3 +18,4 @@ Whether you're a seasoned LP or new to the DeFi scene, this chapter will equip y
 
 
 
+[Questions](./../../generated/questions/strategy-simulation.md)

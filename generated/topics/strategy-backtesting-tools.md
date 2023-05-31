@@ -20,3 +20,4 @@ Whether you're a seasoned trader or new to the DeFi space, this chapter offers a
 
 
 
+[Questions](./../../generated/questions/strategy-backtesting-tools.md)

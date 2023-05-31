@@ -228,6 +228,7 @@ topics:
       understanding the tools at your disposal. And as we'll demonstrate,
       strategy backtesting is an invaluable tool in your arsenal.
     explanations: strategy-backtesting-tools.yaml
+    questions: strategy-backtesting-tools.yaml
   - key: strategy-simulation
     title: Strategy Simulation
     details: >-
@@ -261,6 +262,7 @@ topics:
       V3, helping you navigate this new landscape of opportunities with
       confidence and precision.
     explanations: strategy-simulation.yaml
+    questions: strategy-simulation.yaml
   - key: position-mgmt-tools
     title: Position Mgmt Tools
     details: >-
@@ -286,6 +288,7 @@ topics:
       that while these tools are powerful, they are not a substitute for careful
       market analysis and a keen understanding of individual risk tolerance.
     explanations: position-mgmt-tools.yaml
+    questions: position-mgmt-tools.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
