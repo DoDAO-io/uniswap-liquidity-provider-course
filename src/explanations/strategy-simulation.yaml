@@ -37,3 +37,28 @@
     on Uniswap V3. However, it's crucial to remember that these simulations are
     based on historical data and assumptions about the future. They cannot
     guarantee future results.
+- key: benefits
+  shortTitle: Benefits
+  details: >
+    **Pros of Strategy Simulation:**
+
+
+    - **Informed Decision Making:** By simulating different strategies, you can
+    gain insights into potential returns and risks, which aids in making more
+    informed decisions about providing liquidity in Uniswap V3.
+
+
+    - **Optimization of Returns:** Simulations can help identify the optimal
+    price ranges and token pairs for providing liquidity, which can maximize
+    returns.
+
+
+    - **Risk Mitigation:** By understanding potential outcomes and risks
+    associated with different strategies, you can choose strategies that align
+    with your risk tolerance level.
+
+
+    - **Understanding Market Dynamics:** Strategy simulations take into account
+    various market conditions, helping you understand how these conditions can
+    affect your returns.
+  title: Benefits
