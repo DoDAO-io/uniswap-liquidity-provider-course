@@ -49,8 +49,23 @@
     informed decisions about whether the strategies would be profitable in
     future market conditions.
 - key: benefits-and-scenarios
+  title: Benefits and Scenarios
   shortTitle: Benefits & Scenarios
   details: >-
+    ### Explainer Video
+
+    <div align="center">
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/xNtOLp4Q02E" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+    </div>
+
+
+
     ### Benefits of Backtesting in Uniswap V3
 
     Backtesting in Uniswap V3 can offer various benefits to LPs:
@@ -96,7 +111,6 @@
     around specific market events, such as the release of significant crypto
     news or the listing of a new token. This could help them devise better
     strategies for such events in the future.
-  title: Benefits and Scenarios
 - key: defi-lab
   shortTitle: DeFi Lab
   details: >+
