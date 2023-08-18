@@ -158,8 +158,17 @@
 
 
 - key: uniswap-fish
+  title: Uniswap Fish
   shortTitle: Uniswap Fish
   details: >+
+    ## Simulation
+
+    See this simulation: [Strategy Simulation using
+    uniswap.fish](https://uniswap.university/simulations/view/uniswap-fish-simulation-uniswap/0)
+
+
+    ## Details
+
     Another excellent tool for simulating your position is available at
     uniswap.fish. Similar to other tools, it enables you to choose the chain and
     token pair for liquidity provision.
@@ -183,4 +192,3 @@
     </div>
 
 
-  title: Uniswap Fish
