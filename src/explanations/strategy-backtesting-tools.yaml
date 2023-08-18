@@ -106,8 +106,20 @@
     news or the listing of a new token. This could help them devise better
     strategies for such events in the future.
 - key: defi-lab
+  title: DeFi Lab
   shortTitle: DeFi Lab
   details: >+
+    ## Simulation
+
+    ### Simulation
+
+    See this simulation: [Backtesting using
+    DeFiLabs](https://uniswap.university/simulations/view/backtesting-in-defi-labs-uniswap/0)
+
+
+    ## Details
+
+
     https://defi-lab.xyz/uniswapv3simulator is an excellent tool for backtesting
 
 
@@ -168,7 +180,6 @@
 
     ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685398740110_back_test_defi_lab_2.png)
 
-  title: DeFi Lab
 - key: revert-finance-63
   title: Revert Finance
   shortTitle: Revert Finance
