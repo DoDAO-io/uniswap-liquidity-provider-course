@@ -71,8 +71,17 @@
     conditions and individual risk tolerance.
   title: Position Management in Uniswap V3
 - key: revert
+  title: Revert
   shortTitle: Revert
   details: >
+    ## Simulation
+
+    See this simulation: [Position Management using
+    revert.finance](https://uniswap.university/simulations/view/revert-position-management-uniswap/0)
+
+
+    ## Details
+
     Revert enables liquidity providers (LPs) to not only initiate but also
     manage their positions. Available through the account and position pages,
     the position management interface allows LPs to Add or Withdraw Liquidity
@@ -160,7 +169,6 @@
 
 
     Remember, Revert applies a 0.50% fee for swap transactions.
-  title: Revert
 - key: instadapp
   shortTitle: Instadapp
   details: >
