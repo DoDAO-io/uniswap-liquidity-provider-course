@@ -170,8 +170,18 @@
 
   title: DeFi Lab
 - key: revert-finance-63
+  title: Revert Finance
   shortTitle: Revert Finance
   details: >
+    ## Simulation
+
+    See this simulation: [Backtesting using
+    Revert](https://uniswap.university/simulations/view/revert-backtest-uniswap/0)
+
+
+    ## Details
+
+
     Revert Finance, available at https://revert.finance/#/initiator, is an
     excellent resource for conducting backtests on different strategies.
 
@@ -194,4 +204,3 @@
 
 
     ![](https://d31h13bdjwgzxs.cloudfront.net/academy/uniswap-eth-1/Guide/strategy-backtesting-tools-uniswap/1685399732682_revert_back_2.png)
-  title: Revert Finance
