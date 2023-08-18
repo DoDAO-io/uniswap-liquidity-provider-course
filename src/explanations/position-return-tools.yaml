@@ -40,8 +40,17 @@
     <div class="play-js-player py-6" data-plyr-provider="youtube"
     data-plyr-embed-id="A4yZHSUbdz8"></div>
 - key: revert-finance
+  title: Revert Finance
   shortTitle: Revert Finance
   details: >
+    ## Simulation
+
+    See this simulation: [Check position using
+    revert.finance](https://uniswap.university/simulations/view/revert-position-details-uniswap/0)
+
+
+    ## Details
+
     Revert develops analytics and management tools for liquidity providers in
     AMM protocols and has a great support for Uniswap V3.
 
@@ -127,7 +136,6 @@
     significantly.
 
     - **Position_age**: The time (in days) since the position was first created.
-  title: Revert Finance
 - key: apyvision
   shortTitle: apy.vision
   details: >
