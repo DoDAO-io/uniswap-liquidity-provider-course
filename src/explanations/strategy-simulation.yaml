@@ -112,8 +112,17 @@
     expectations about the future price of ETH and your risk tolerance.
   title: Examples
 - key: defi-lab-11
+  title: DeFi Lab
   shortTitle: DeFi Lab
   details: >+
+    ## Simulation
+
+    See this simulation: [Strategy Simulation using
+    defi-lab.xyz](https://uniswap.university/simulations/view/defi-labs-simulation-uniswap/0)
+
+
+    ## Details
+
     You can visit the website defi-lab.xyz/uniswapv3simulator to access valuable
     insights on simulating various strategies. By selecting specific tokens, the
     simulator demonstrates both narrow and wide range strategies. 
@@ -148,7 +157,6 @@
 
 
 
-  title: DeFi Lab
 - key: uniswap-fish
   shortTitle: Uniswap Fish
   details: >+
